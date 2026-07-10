@@ -1,7 +1,7 @@
 # first-project
-我的第一个城市仓库
+我的第一个 GitHub 仓库
 
-## sintering_energy.py
+## `sintering_energy.py`
 
 输入以下三个参数后，脚本会计算激光能量密度：
 
@@ -27,4 +27,12 @@ python sintering_energy.py
 
 ```text
 激光能量密度: 1.000000 J/mm²
+```
+
+## 测试
+
+可以直接运行单元测试来验证计算逻辑：
+
+```bash
+python -m unittest
 ```
